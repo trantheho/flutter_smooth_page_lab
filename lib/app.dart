@@ -3,7 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'package:reply/router.dart';
 
-import 'colors.dart';
+import 'utils/colors.dart';
 import 'model/email_store.dart';
 import 'model/router_provider.dart';
 
@@ -45,6 +45,7 @@ class _ReplyAppState extends State<ReplyApp> {
               routeInformationParser: _routeInformationParser,
               routerDelegate: _routerDelegate,
               themeMode: themeMode,
+              debugShowCheckedModeBanner: false,
               title: 'Reply',
               darkTheme: _buildReplyDarkTheme(context),
               theme: _buildReplyLightTheme(context),

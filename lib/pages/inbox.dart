@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'mail_card_preview.dart';
-import 'model/email_store.dart';
+import '../model/email_store.dart';
 
 class InboxPage extends StatelessWidget {
   const InboxPage({@required this.destination}) : assert(destination != null);

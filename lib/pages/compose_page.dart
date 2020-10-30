@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'model/email_store.dart';
+import '../model/email_store.dart';
 
 class ComposePage extends StatelessWidget {
   const ComposePage();
